@@ -1,4 +1,4 @@
-# spring-axon-datasource-issue
+# Spring Axon Datasource Issue
 
 A sample project demonstrating an issue with Axon when deployed in Spring Boot >= 2.1.x 
 
