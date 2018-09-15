@@ -1,4 +1,4 @@
-package com.fedexx;
+package com.myco;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
