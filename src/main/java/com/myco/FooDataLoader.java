@@ -1,4 +1,4 @@
-package com.fedexx;
+package com.myco;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class FooDataLoader implements CommandLineRunner {
 
-  private Repo fooRepo;
+  private FooRepo fooRepo;
 
   @Autowired
-  public FooDataLoader(Repo fooRepo) {
+  public FooDataLoader(FooRepo fooRepo) {
     this.fooRepo = fooRepo;
   }
 

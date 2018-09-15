@@ -1,15 +1,6 @@
 debug: true
-spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: ${RECOVER_JDBC_URL:jdbc:postgresql://localhost:5433/fxpostgres}
-    username: fxpostgres
-    password: supersecret
-  jpa:
-    database: POSTGRESQL
-    show-sql: true
-    hibernate:
-      ddl-auto: create-drop
-axoniq:
-  axondb:
-    servers: localhost:8123
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

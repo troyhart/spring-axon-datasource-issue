@@ -1,4 +1,4 @@
-package com.fedexx;
+package com.myco;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FooController {
 
-  private Repo fooRepo;
+  private FooRepo fooRepo;
 
   @Autowired
-  public FooController(Repo fooRepo) {
+  public FooController(FooRepo fooRepo) {
     this.fooRepo = fooRepo;
   }
 

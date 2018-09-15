@@ -1,4 +1,4 @@
-package com.fedexx;
+package com.myco;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -26,7 +26,7 @@ import io.axoniq.axondb.client.axon.AxonDBEventStore;
 @Configuration
 public class AxonConfig {
 
-  @Bean  
+  @Bean
   public Serializer eventSerializer() {
     return new JacksonSerializer();
   }
