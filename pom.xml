@@ -41,16 +41,7 @@
   </dependencyManagement>
 
   <dependencies>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-actuator</artifactId>
-    </dependency>
 
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-devtools</artifactId>
-      <scope>runtime</scope>
-    </dependency>
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
@@ -68,30 +59,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>io.axoniq</groupId>
-      <artifactId>axondb-client</artifactId>
-      <version>1.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.axonframework</groupId>
-      <artifactId>axon-spring-boot-starter</artifactId>
-      <version>3.3.5</version>
-    </dependency>
-    <dependency>
-      <groupId>org.axonframework</groupId>
-      <artifactId>axon-test</artifactId>
-      <version>3.3.5</version>
-    </dependency>
-    <dependency>
-      <groupId>org.axonframework</groupId>
-      <artifactId>axon-metrics</artifactId>
-      <version>3.3.5</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.datatype</groupId>
-      <artifactId>jackson-datatype-jsr310</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
