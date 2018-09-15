@@ -22,11 +22,11 @@ public class FooDataLoader implements CommandLineRunner {
     fooRepo.save(foo);
     foo = new Foo();
     foo.setId("ID2");
-    foo.setName("Donald 'The Dumbass' Trump");
+    foo.setName("True Grit");
     fooRepo.save(foo);
     foo = new Foo();
     foo.setId("ID3");
-    foo.setName("Your Mom");
+    foo.setName("Tron");
     fooRepo.save(foo);
   }
 }
